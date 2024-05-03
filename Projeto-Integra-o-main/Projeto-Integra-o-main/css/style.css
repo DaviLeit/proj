@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    height: 80px;
+}
+
+.texto {
+    color: #ffffff;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-right: 75px;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    height: 90px;
+    margin-left: 10px;
+}
+
+body {
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(aqua, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+}
+
+input {
+    color: aqua;
+    background-color: black;
+    text-align: center;
+    height: 20px;
+    width: 250px;
+    border: solid 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button {
+    color: aqua;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+    border-radius: 10px;
+    border: solid 3px rgb(0, 255, 255);
+}
+
+main {
+    padding: 20px;
+    margin-top: 90px; /* Ajuste a margem superior para deixar espaço para o header */
+    width: auto;
+    height: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    justify-content: center;
+    height: 800px;
+}
+
+.card {
+    background: linear-gradient(rgb(0, 255, 255), transparent);
+    border: solid 3px black;
+    display: flex;
+    width: 800px;
+    height: 300px;
+}
+
+.image {
+    width: 190px;
+    height: 280px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.info {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.nome {
+    color: black;
+    margin-top: 20px;
+}
+
+.tipo {
+    color: black;
+    margin-top: 20px;
+}
+
+.raca {
+    color: black;
+    margin-top: 10px;
+}
+
+.desc {
+    color: black;
+    margin-top: 10px;
+}
+
+footer {
+    background: linear-gradient(transparent,aqua );
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-right: 75px;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
